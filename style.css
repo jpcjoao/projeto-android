@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+header {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(46, 72, 187), rgb(0, 60, 128), rgb(0, 29, 122));
+    padding-top: 50px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.651);
+    text-align: center;
+    max-height: 200px;
+    min-width: 320px;
+    
+   }
+   
+header > h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.459);
+    font-weight: normal;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding: 10px 10px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.459);
+}
+
+nav > a {
+    color: white ;
+    font-style: normal;
+    text-decoration: none;
+    border: 15px solid transparent;
+}
+
+nav > a:visited {
+    color: white;
+}
+
+nav > a:hover {
+    color: rgb(0, 0, 190);
+    background-color: lightblue;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+body {
+    background-color: rgb(154, 209, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -10px 0px -10px 0px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.61);
+    min-width: 300px;
+    max-width: 1000px;
+
+}
+
+h2 {
+    font-family: idroid;
+    color: rgb(154, 209, 255);
+    background-image: linear-gradient(to right, blue, lightblue, white);
+    margin: 10px 10px
+}
+
+
+h1.main {
+    font-family: idroid;
+    color:darkblue
+}
+
+p {
+    margin: 10px 30px;
+    text-align: justify;
+    line-height: 2em;
+    text-indent: 20px;
+}
+
+aside {
+    background-color: rgb(169, 216, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.651);
+    margin: 20px;
+}
+
+aside > ul {
+    list-style-type: "\2714\00A0";
+    list-style-position: inside;
+    columns: 2;
+}
+
+h3.div {
+    background-color: blue;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    background-color:blue;
+    text-indent: 15px;
+    padding: 5px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+div.video {
+    background-color: darkblue;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+strong {
+    color: darkblue
+}
+
+a.main {
+    color: darkblue;
+    background-color: lightblue;
+    text-decoration: none;
+    padding: 2px 6px;
+    
+}
+a.main:visited {
+    color: darkblue
+}
+a.main:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: darkblue;
+    margin-top: 20px;
+}
+
+p.footer {
+    text-align: center;
+    padding: 5px;
+}
