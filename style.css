@@ -172,6 +172,12 @@ footer a {
     font-weight: bold;
 }
 
+footer a:visited {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
 footer a:hover {
     color: lightblue;
 }
