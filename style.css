@@ -114,6 +114,11 @@ h3.div {
 img {
     display: block;
     margin: auto;
+    width: 100%;
+}
+
+img.pequena {
+    width: 300px;
 }
 
 div.video {
